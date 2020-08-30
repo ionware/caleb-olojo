@@ -74,9 +74,3 @@ function App() {
 }
 
 export default App;
-
-// At 387 words/min.
-function timeToReadInMs(sentence) {
-  const wordsCount = sentence.split(' ').length;
-  return Math.round((3600 * wordsCount) / 387) + 2000;
-}
